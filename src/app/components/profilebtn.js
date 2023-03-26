@@ -43,7 +43,7 @@ export default function ProfileBtn({credentialDialog}) {
   return (
         
         <div className={styles.horizontalsection}>
-          <div id='profilecta'  className={`${styles.smallbtn}`} style={{ borderRadius: '24px', padding: '8px'}} onClick={changeMyTheme}>
+          <div id='themecta'  className={`${styles.smallbtn}`} style={{ borderRadius: '24px', padding: '8px'}} onClick={changeMyTheme}>
             {(theme === 'light') ? <Moon className={styles.icon} /> : <Sun className={styles.icon} />}
           </div>
           
